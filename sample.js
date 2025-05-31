@@ -25,7 +25,3 @@ document.querySelectorAll("#navbar a").forEach((link) => {
   });
 });
 
-function toggleMenu() {
-  const navbar = document.getElementById("navbar");
-  navbar.classList.toggle("active");
-}
