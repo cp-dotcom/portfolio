@@ -111,6 +111,7 @@ header {
   position: relative;
   animation: slideInRight 1s ease-out;
   margin-left: -80px;
+  margin-right: 100px;
 }
 
 .img {
@@ -123,10 +124,10 @@ header {
 
 .social-links {
   position: absolute;
-  bottom: 50px;
-  left: 40px;
+  bottom: 60px;
+  left: 210px;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .social-links img {
@@ -417,20 +418,23 @@ header {
   }
 
   .photo {
-    width: 250px;
+    width: 280px;
     height: 345px;
-    top: -160px;
-    left: -70px;
+    top: -140px;
+    left: -50px;
   }
 
   .img {
     height: 340px;
+    width: 200px;
+
+    
   }
 
   .social-links {
     position: static;
     justify-content: center;
-    margin-top: -110px;
+    margin-top: -70px;
   }
 
   .section {
@@ -514,6 +518,7 @@ header {
   .section {
     padding: 70px 30px;
   }
+  
 
   .about-content {
     gap: 40px;
@@ -541,6 +546,7 @@ header {
   .section {
     padding: 100px 80px;
   }
+   
 
   .skills-container {
     grid-template-columns: repeat(4, 1fr);
@@ -564,6 +570,7 @@ header {
   #navbar a {
     font-size: 14px;
   }
+  
 
   .name {
     font-size: 28px;
