@@ -434,7 +434,7 @@ header {
   .social-links {
     position: static;
     justify-content: center;
-    margin-top: -100px;
+    margin-top: -128px;
   }
 
   .section {
@@ -492,11 +492,12 @@ header {
 
   .sec1 {
     margin-left: 170px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .footer {
     margin-left: -350px;
+    
   }
 
 }
